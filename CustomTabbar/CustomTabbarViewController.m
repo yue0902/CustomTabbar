@@ -91,7 +91,7 @@
         for (CustomBarButton *tempBtn in self.arrayBarButtons) {
             if (tempBtn == btn) {
                 tempBtn.selected = YES;
-                //self.tabbar.selectedButton = tempBtn;
+                self.tabbar.selectedButton = tempBtn;
             }else{
                 tempBtn.selected = NO;
             }
