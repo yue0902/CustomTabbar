@@ -16,6 +16,24 @@
 		0B6A751F17641576007F1701 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A751E17641576007F1701 /* Default.png */; };
 		0B6A752117641576007F1701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A752017641576007F1701 /* Default@2x.png */; };
 		0B6A752317641576007F1701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A752217641576007F1701 /* Default-568h@2x.png */; };
+		0B6A753A176416BA007F1701 /* LeftSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A7539176416BA007F1701 /* LeftSecondViewController.m */; };
+		0B6A753D176416D0007F1701 /* LeftFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A753C176416D0007F1701 /* LeftFirstViewController.m */; };
+		0B6A7540176416E0007F1701 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A753F176416E0007F1701 /* MainViewController.m */; };
+		0B6A7543176416F4007F1701 /* RightFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A7542176416F4007F1701 /* RightFirstViewController.m */; };
+		0B6A754617641703007F1701 /* RightSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A754517641703007F1701 /* RightSecondViewController.m */; };
+		0B6A755817641AEB007F1701 /* bottom_4chick.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A754D17641AEB007F1701 /* bottom_4chick.png */; };
+		0B6A755917641AEB007F1701 /* bottom_4nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A754E17641AEB007F1701 /* bottom_4nor.png */; };
+		0B6A755A17641AEB007F1701 /* bottom_m_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A754F17641AEB007F1701 /* bottom_m_bg.png */; };
+		0B6A756617641C70007F1701 /* CustomBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A755E17641BB4007F1701 /* CustomBarButton.m */; };
+		0B6A756717641C70007F1701 /* CustomNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A756017641BB4007F1701 /* CustomNavViewController.m */; };
+		0B6A756817641C70007F1701 /* CustomTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A756217641BB4007F1701 /* CustomTabbarView.m */; };
+		0B6A756917641C70007F1701 /* CustomTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A756417641BB4007F1701 /* CustomTabbarViewController.m */; };
+		0B6A756B17641E61007F1701 /* 1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A756A17641E61007F1701 /* 1_bg.png */; };
+		0B6A756C17642034007F1701 /* CustomTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A756517641BB4007F1701 /* CustomTabbarViewController.xib */; };
+		0B6A7572176424A1007F1701 /* NewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A7571176424A0007F1701 /* NewFirstViewController.m */; };
+		0B6A7575176424B3007F1701 /* NewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A7574176424B0007F1701 /* NewSecondViewController.m */; };
+		0B6A757817644DD0007F1701 /* box_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A757617644DD0007F1701 /* box_blue.png */; };
+		0B6A757917644DD0007F1701 /* box_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A757717644DD0007F1701 /* box_grey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +50,35 @@
 		0B6A751E17641576007F1701 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0B6A752017641576007F1701 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0B6A752217641576007F1701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B6A7538176416BA007F1701 /* LeftSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSecondViewController.h; sourceTree = "<group>"; };
+		0B6A7539176416BA007F1701 /* LeftSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSecondViewController.m; sourceTree = "<group>"; };
+		0B6A753B176416D0007F1701 /* LeftFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftFirstViewController.h; sourceTree = "<group>"; };
+		0B6A753C176416D0007F1701 /* LeftFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftFirstViewController.m; sourceTree = "<group>"; };
+		0B6A753E176416E0007F1701 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0B6A753F176416E0007F1701 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0B6A7541176416F4007F1701 /* RightFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightFirstViewController.h; sourceTree = "<group>"; };
+		0B6A7542176416F4007F1701 /* RightFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightFirstViewController.m; sourceTree = "<group>"; };
+		0B6A754417641702007F1701 /* RightSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSecondViewController.h; sourceTree = "<group>"; };
+		0B6A754517641703007F1701 /* RightSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSecondViewController.m; sourceTree = "<group>"; };
+		0B6A754D17641AEB007F1701 /* bottom_4chick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_4chick.png; path = image/bottom_4chick.png; sourceTree = "<group>"; };
+		0B6A754E17641AEB007F1701 /* bottom_4nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_4nor.png; path = image/bottom_4nor.png; sourceTree = "<group>"; };
+		0B6A754F17641AEB007F1701 /* bottom_m_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_m_bg.png; path = image/bottom_m_bg.png; sourceTree = "<group>"; };
+		0B6A755D17641BB4007F1701 /* CustomBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBarButton.h; sourceTree = "<group>"; };
+		0B6A755E17641BB4007F1701 /* CustomBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBarButton.m; sourceTree = "<group>"; };
+		0B6A755F17641BB4007F1701 /* CustomNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavViewController.h; sourceTree = "<group>"; };
+		0B6A756017641BB4007F1701 /* CustomNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavViewController.m; sourceTree = "<group>"; };
+		0B6A756117641BB4007F1701 /* CustomTabbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabbarView.h; sourceTree = "<group>"; };
+		0B6A756217641BB4007F1701 /* CustomTabbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarView.m; sourceTree = "<group>"; };
+		0B6A756317641BB4007F1701 /* CustomTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabbarViewController.h; sourceTree = "<group>"; };
+		0B6A756417641BB4007F1701 /* CustomTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarViewController.m; sourceTree = "<group>"; };
+		0B6A756517641BB4007F1701 /* CustomTabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabbarViewController.xib; sourceTree = "<group>"; };
+		0B6A756A17641E61007F1701 /* 1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_bg.png; path = image/1_bg.png; sourceTree = "<group>"; };
+		0B6A7570176424A0007F1701 /* NewFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFirstViewController.h; sourceTree = "<group>"; };
+		0B6A7571176424A0007F1701 /* NewFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFirstViewController.m; sourceTree = "<group>"; };
+		0B6A7573176424AE007F1701 /* NewSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSecondViewController.h; sourceTree = "<group>"; };
+		0B6A7574176424B0007F1701 /* NewSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSecondViewController.m; sourceTree = "<group>"; };
+		0B6A757617644DD0007F1701 /* box_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_blue.png; path = image/box_blue.png; sourceTree = "<group>"; };
+		0B6A757717644DD0007F1701 /* box_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_grey.png; path = image/box_grey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +127,22 @@
 			children = (
 				0B6A751B17641576007F1701 /* AppDelegate.h */,
 				0B6A751C17641576007F1701 /* AppDelegate.m */,
+				0B6A753B176416D0007F1701 /* LeftFirstViewController.h */,
+				0B6A753C176416D0007F1701 /* LeftFirstViewController.m */,
+				0B6A7538176416BA007F1701 /* LeftSecondViewController.h */,
+				0B6A7539176416BA007F1701 /* LeftSecondViewController.m */,
+				0B6A753E176416E0007F1701 /* MainViewController.h */,
+				0B6A753F176416E0007F1701 /* MainViewController.m */,
+				0B6A7541176416F4007F1701 /* RightFirstViewController.h */,
+				0B6A7542176416F4007F1701 /* RightFirstViewController.m */,
+				0B6A754417641702007F1701 /* RightSecondViewController.h */,
+				0B6A754517641703007F1701 /* RightSecondViewController.m */,
+				0B6A7570176424A0007F1701 /* NewFirstViewController.h */,
+				0B6A7571176424A0007F1701 /* NewFirstViewController.m */,
+				0B6A7573176424AE007F1701 /* NewSecondViewController.h */,
+				0B6A7574176424B0007F1701 /* NewSecondViewController.m */,
+				0B6A753417641642007F1701 /* Custom */,
+				0B6A7529176415E2007F1701 /* image */,
 				0B6A751317641575007F1701 /* Supporting Files */,
 			);
 			path = CustomTabbar;
@@ -97,6 +160,35 @@
 				0B6A752217641576007F1701 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6A7529176415E2007F1701 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0B6A756A17641E61007F1701 /* 1_bg.png */,
+				0B6A754D17641AEB007F1701 /* bottom_4chick.png */,
+				0B6A754E17641AEB007F1701 /* bottom_4nor.png */,
+				0B6A754F17641AEB007F1701 /* bottom_m_bg.png */,
+				0B6A757617644DD0007F1701 /* box_blue.png */,
+				0B6A757717644DD0007F1701 /* box_grey.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		0B6A753417641642007F1701 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0B6A755D17641BB4007F1701 /* CustomBarButton.h */,
+				0B6A755E17641BB4007F1701 /* CustomBarButton.m */,
+				0B6A755F17641BB4007F1701 /* CustomNavViewController.h */,
+				0B6A756017641BB4007F1701 /* CustomNavViewController.m */,
+				0B6A756117641BB4007F1701 /* CustomTabbarView.h */,
+				0B6A756217641BB4007F1701 /* CustomTabbarView.m */,
+				0B6A756317641BB4007F1701 /* CustomTabbarViewController.h */,
+				0B6A756417641BB4007F1701 /* CustomTabbarViewController.m */,
+				0B6A756517641BB4007F1701 /* CustomTabbarViewController.xib */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +242,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6A756C17642034007F1701 /* CustomTabbarViewController.xib in Resources */,
 				0B6A751717641575007F1701 /* InfoPlist.strings in Resources */,
 				0B6A751F17641576007F1701 /* Default.png in Resources */,
 				0B6A752117641576007F1701 /* Default@2x.png in Resources */,
 				0B6A752317641576007F1701 /* Default-568h@2x.png in Resources */,
+				0B6A755817641AEB007F1701 /* bottom_4chick.png in Resources */,
+				0B6A755917641AEB007F1701 /* bottom_4nor.png in Resources */,
+				0B6A755A17641AEB007F1701 /* bottom_m_bg.png in Resources */,
+				0B6A756B17641E61007F1701 /* 1_bg.png in Resources */,
+				0B6A757817644DD0007F1701 /* box_blue.png in Resources */,
+				0B6A757917644DD0007F1701 /* box_grey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +263,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6A756617641C70007F1701 /* CustomBarButton.m in Sources */,
+				0B6A756717641C70007F1701 /* CustomNavViewController.m in Sources */,
+				0B6A756817641C70007F1701 /* CustomTabbarView.m in Sources */,
+				0B6A756917641C70007F1701 /* CustomTabbarViewController.m in Sources */,
 				0B6A751917641576007F1701 /* main.m in Sources */,
 				0B6A751D17641576007F1701 /* AppDelegate.m in Sources */,
+				0B6A753A176416BA007F1701 /* LeftSecondViewController.m in Sources */,
+				0B6A753D176416D0007F1701 /* LeftFirstViewController.m in Sources */,
+				0B6A7540176416E0007F1701 /* MainViewController.m in Sources */,
+				0B6A7543176416F4007F1701 /* RightFirstViewController.m in Sources */,
+				0B6A754617641703007F1701 /* RightSecondViewController.m in Sources */,
+				0B6A7572176424A1007F1701 /* NewFirstViewController.m in Sources */,
+				0B6A7575176424B3007F1701 /* NewSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

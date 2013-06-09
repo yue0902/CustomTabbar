@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class CustomTabbarViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic) CustomTabbarViewController *customTabbarViewController;
 
 @end

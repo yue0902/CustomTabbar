@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftFirstViewController.h"
+#import "LeftSecondViewController.h"
+#import "MainViewController.h"
+#import "RightFirstViewController.h"
+#import "RightSecondViewController.h"
 
+#import "CustomNavViewController.h"
+#import "CustomTabbarViewController.h"
+#import "CustomBarButton.h"
 @implementation AppDelegate
-
+@synthesize customTabbarViewController;
 - (void)dealloc
 {
     [_window release];
+    [customTabbarViewController release];
     [super dealloc];
 }
 
@@ -22,6 +31,52 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.customTabbarViewController = [[[CustomTabbarViewController alloc] initWithNibName:@"CustomTabbarViewController" bundle:nil] autorelease];
+    
+    
+    LeftFirstViewController *leftFirstVC = [[LeftFirstViewController alloc] init];
+    LeftSecondViewController *leftSecondVC = [[LeftSecondViewController alloc] init];
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    RightFirstViewController *rightFirstVC = [[RightFirstViewController alloc] init];
+    RightSecondViewController *rightSecondVC = [[RightSecondViewController alloc] init];
+    
+    
+    CustomNavViewController *leftFirstNav = [[CustomNavViewController alloc] initWithRootViewController:leftFirstVC];
+    CustomNavViewController *leftSecondNav = [[CustomNavViewController alloc] initWithRootViewController:leftSecondVC];
+    CustomNavViewController *mainNav = [[CustomNavViewController alloc] initWithRootViewController:mainVC];
+    CustomNavViewController *rightFirstNav = [[CustomNavViewController alloc] initWithRootViewController:rightFirstVC];
+    CustomNavViewController *rightSecondNav = [[CustomNavViewController alloc] initWithRootViewController:rightSecondVC];
+    
+    
+    [leftFirstVC release];
+    [leftSecondVC release];
+    [mainVC release];
+    [rightFirstVC release];
+    [rightSecondVC release];
+    
+    
+    leftFirstNav.tabbarViewController = self.customTabbarViewController;
+    leftSecondNav.tabbarViewController = self.customTabbarViewController;
+    mainNav.tabbarViewController = self.customTabbarViewController;
+    rightFirstNav.tabbarViewController = self.customTabbarViewController;
+    rightSecondNav.tabbarViewController = self.customTabbarViewController;
+    
+    
+    self.customTabbarViewController.arrayViewcontrollers = [NSArray arrayWithObjects:leftFirstNav,leftSecondNav,mainNav,rightFirstNav,rightSecondNav, nil];
+    
+    
+    [leftFirstNav release];
+    [leftSecondNav release];
+    [mainNav release];
+    [rightFirstNav release];
+    [rightSecondNav release];
+    
+    
+    self.window.rootViewController = self.customTabbarViewController;
+    
+    CustomBarButton *tabbarItem = [self.customTabbarViewController.arrayBarButtons objectAtIndex:3];
+        tabbarItem.badgeValue = @"6";
+    [self.customTabbarViewController touchBtnAtIndex:2];
     return YES;
 }
 
