@@ -9,5 +9,4 @@ A custom tabbarViewController + custom navgationBar +custom barItem.
   Defult is that ,tabbar show in the root viewController and hidden in others which pushed to.
 4.Custom bar item  has badage value ,when set it will show a red icon with it`s value on the tabbar item.
 
-![image](http://github.com/yue0902/CustomTabbar/blob/master/mainview.png "image") 
-![image](http://images.cnblogs.com/cnblogs_com/xilifeng/201210/201210071237597195.png "image")
+![image](https://github.com/yue0902/CustomTabbar/blob/master/mainview.png?raw=true "image") 
